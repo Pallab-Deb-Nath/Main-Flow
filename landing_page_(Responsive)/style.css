@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_content_gap{
+    display: flex;
+    gap: 100px;
+}
+.logo{
+    width: 155px;
+}
+
+.nav_content_btn button{
+    position: relative;
+    background-color: rgba(250, 7, 7, 0.774);
+    height: 35px;
+    border-radius: 7px;
+    left: -40px;
+}
