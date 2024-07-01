@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container1{
+    gap: 5px;
+}
+.logo{
+    color: white
+}
+.logo img{
+    width: 104px;
+}
+.left{
+    width: 25vw;
+    padding: 4px;
+}
+.right{
+    width: 75vw;
+}
+
+.home ul li{
+    width: 25px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-family: sans-serif;
+    padding: 12px;
+    padding-left: 14px;
+    font-weight: bold;
+}
+.logo{
+    padding: 12px;
+    padding-left: 17px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 153px;
+    padding: 12px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading img{
+    width: 20px;
+}
+.heading .plus{
+    position: relative;
+    left: 9vw;
+}
+.header{
+    justify-content: space-between;
+}
+.buttons{
+    gap: 55px;
+}
+.buttons button{
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    border: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.buttons :nth-child(1){
+    background-color: #121212;
+    color: white;
+}
+.header .nav button{
+    width: 35px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: black;
+    border: black;
+}
+.nav button svg{
+    color: white;
+}
+.playlist{
+    position: relative;
+    top: 2vh;
+    /* min-height: 45vh; */
+    background-color: grey;
+}
+
+.duration {
+    background-color: black;
+    opacity: 60%;
+    color: white;
+    border-radius: 3px;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.card {
+    display: flex;
+    background-color: #202020;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.thumbnail {
+    position: relative;
+}
+.thumbnail img {
+    width: 160px;
+    height: 90px;
+    border-radius: 5px 0 0 5px;
+}
+.description {
+    padding: 10px;
+    color: white;
+}
+.d2 {
+    display: flex;
+    gap: 15px;
+    font-size: 11px;
+    color: rgb(145, 141, 118);
+}
+
+@media (max-width: 320px){
+    .heading .plus{
+        left: 1vh;       
+    }
+}
+@media (max-width: 480px){
+    .heading .plus{
+        left: 3vh;       
+    }
+}
+@media (max-width: 768px ){
+    .heading .plus{
+        left: 5px;       
+    }
+}
